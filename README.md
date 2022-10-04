@@ -4,9 +4,13 @@
 
 ### Goal
 
-Exact same function as https://github.com/gamullen/FindNextCIDRRange but written in Powershell instead of C# so it is slower but a more familiar language to scripters. More details can be found on my [blog](https://automationadmin.com/2022/08/tf-get-next-subnet).
+Exact same function as [FindNextCIDRRange](https://github.com/gamullen/FindNextCIDRRange) but written in Powershell instead of C# so it is slower but a more familiar language to scripters. More details can be found on my [blog](https://automationadmin.com/2022/08/tf-get-next-subnet).
 
 ### Code Used
 
 1. [Indented.Net.IP](https://github.com/indented-automation/Indented.Net.IP/)
 2. [BornToBeRoot/PowerShell](https://github.com/BornToBeRoot/PowerShell/)
+
+### DISCLAIMER 
+
+Please do not use these scripts in a production environment without reading them over first. Please see the MIT [license](./LICENSE) for more information.

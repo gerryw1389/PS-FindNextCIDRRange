@@ -4,5 +4,7 @@
 @{
     # For latest supported version, go to 'https://www.powershellgallery.com/packages/Az'. 
     # To use the Az module in your function app, please uncomment the line below.
-    'Az' = '8.2.0'
+    #'Az' = '8.2.0'
+   'Az.Accounts' = '2.7.5'
+   'Az.Network' = '4.16.0'
 }
