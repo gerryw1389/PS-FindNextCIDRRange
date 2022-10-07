@@ -6,7 +6,17 @@
 
 Exact same function as [FindNextCIDRRange](https://github.com/gamullen/FindNextCIDRRange) but written in Powershell instead of C# so it is slower but a more familiar language to scripters. More details can be found on my [blog](https://automationadmin.com/2022/08/tf-get-next-subnet).
 
-### Code Used
+### Variations From C# Version
+
+1. This version introduces a new parameter `previousblock` so that it can be called from Terraform multiple times. The idea is that if you want to build multiple subnets at once, you would pass this parameter so that the VNET will provide the NEXT cidr block instead of the same one over and over. I will try and write a module example on this shortly.
+
+### Terraform Notes
+
+1. You can use the [code](https://github.com/gerryw1389/terraform-examples/tree/main/2022-10-07-tf-deploy-ps-function-app) here to deploy this app using Terraform.
+
+1. You can also see the associated [blog post](https://automationadmin.com/2022/10/tf-deploy-ps-function-app) for more details.
+
+### Other Code Used
 
 1. [Indented.Net.IP](https://github.com/indented-automation/Indented.Net.IP/)
 2. [BornToBeRoot/PowerShell](https://github.com/BornToBeRoot/PowerShell/)
